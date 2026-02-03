@@ -6,8 +6,8 @@ This repository contains the implementation and supporting materials for my MSc 
 
 The models implemented are:
 - **Custom CNN**
-- **VGG-16** (transfer learning)
-- **MobileNetV2** (transfer learning)
+- **VGG-16**
+- **MobileNetV2**
 
 The dataset is stored and managed using **Hadoop Distributed File System (HDFS)** and processed with **Apache Spark**.
 
@@ -18,7 +18,7 @@ The dataset is stored and managed using **Hadoop Distributed File System (HDFS)*
 The main goals of this project are:
 
 - To compare the performance of **Custom CNN**, **VGG-16**, and **MobileNetV2** in classifying potato leaf diseases.
-- To demonstrate how **Hadoop (HDFS)** can be used for scalable dataset storage.
+- To demonstrate how **Hadoop** can be used for scalable dataset storage.
 - To explore how **Apache Spark** accelerates data preprocessing and loading pipelines.
 - To evaluate model prediction performance using standard classification metrics (accuracy, precision, recall, F1-score).
 
